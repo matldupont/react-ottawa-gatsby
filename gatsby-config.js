@@ -9,17 +9,11 @@ module.exports = {
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-offline`,
     {
-      resolve: `gatsby-mdx`,
-      options: {
-        extensions: [".mdx", ".md"]
-      }
-    },
-    {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `slides`,
         path: `${__dirname}/src`,
       },
-    },
+    }
   ],
 };

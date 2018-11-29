@@ -199,6 +199,8 @@ export default () => (
 
 ## Source Plugins
 
+Pull data from various locations into "nodes"
+
 - Filesystem (json, md, etc...)
 
 - APIs
@@ -211,6 +213,9 @@ export default () => (
 
 ## Transformer Plugins
 
+Transform data from the source plugins  
+into new nodes or node fields
+
 - Markdown to HTML for example
 
 - Images
@@ -219,40 +224,38 @@ export default () => (
 
 ---
 
+## 3rd party plugins
+
+Anything else you want!
+
+```
+gatsby-plugin-styled-components
+
+gatsby-plugin-offline
+
+gatsby-plugin-manifest
+
+```
+---
+
+## The best part...
+
+---
+
+# You can make your own!
+
+---
+
 # Demo time!
 
-(ask about the Node API)
+(ask about the Node API if there's still time)
 
 ---
 
----
+# Thank you all for your time
 
+## @matldupont
 
-> Inscrutable icons litter the face of the devices even though the research 
-> community has long demonstrated that people cannot remember the meaning of
-> more than a small number of icons […] Who can remember what each icon
-> means? Not me.
-> <cite>Don Norman</cite>
+## https://github.com/matldupont/
 
 ---
-
-# 🤫
-
----
-
-## Slides are written in Markdown!
-
-Here's the source of the first slide:
-
-    # Gatsby Deck
-
-    Create presentations using Gatsby & React.
-
----
-
-![Monkey](//i.imgur.com/PnbINJ6.gif)
-
-🌟 Star it on [GitHub](//github.com/fabe/gatsby-deck),  
-or create your own with:
-
-    gatsby new my-slides https://github.com/fabe/gatsby-starter-deck
