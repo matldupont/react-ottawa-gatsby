@@ -65,12 +65,16 @@ So ... a JAMStack app.
 
 ---
 
-## You pull your data from anywhere using GraphQL
+## You pull your data from anywhere using GraphQL!
 
 ---
 
-# ... What?!
+Will you see some GraphQL in this presentation?  Absolutely!
+  
+Is this a deep dive into GraqhQL?  
+Hell no!
 
+    Now, back to Gatsby
 ---
 
 ## Use GraphQL to pull data from:
@@ -105,7 +109,7 @@ So ... a JAMStack app.
 
 ---
 
-# The Data and how you get it
+# The Data
 
 ---
 
@@ -116,6 +120,7 @@ gatsby-config.js
 module.exports = {
   siteMetadata: {
     title: `ReactOttawa`,
+    description: `The coolest meetup in town`,
   },
 }
 ```
@@ -130,6 +135,7 @@ export const query = graphql`
   query {
     site {
       siteMetadata {
+        title
         description
       }
     }
@@ -216,6 +222,8 @@ export default () => (
 # Demo time!
 
 (ask about the Node API)
+
+---
 
 ---
 
