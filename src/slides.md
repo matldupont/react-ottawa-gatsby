@@ -1,14 +1,9 @@
-# Mat Dupont
-
-##### @matldupont
-##### https://github.com/matldupont/
-##### Rebel.com
-
----
 
 # Getting Started with Gatsby
 
-Can I really get through this in 20 min?!
+## Mat Dupont
+
+    Can I really get through this in 20 min?!
 
 ---
 
@@ -53,6 +48,8 @@ So ... a JAMStack app.
 
 - Code and data splitting out of the box.
 
+- A layer above Webpack and Babel
+
 - Generates a PWA
 
 - Loads only what it needs to get started
@@ -69,15 +66,7 @@ So ... a JAMStack app.
 
 ---
 
-Will you see some GraphQL in this presentation?  Absolutely!
-  
-Is this a deep dive into GraqhQL?  
-Hell no!
-
-    Now, back to Gatsby
----
-
-## Use GraphQL to pull data from:
+## Pull data from:
 
 - Headless CMS
 - SaaS Service
@@ -89,11 +78,22 @@ Hell no!
 
 ## What I really meant by "static"...
 
+Pages, not just files.
+
 ---
 
-## An example you might have heard of
+No more calling your api or database  
+to dynamically fetch entire pages
 
-### reactjs.org
+Your data is all pulled when you deploy
+
+---
+
+## The most relevant example
+
+---
+
+# reactjs.org
 
 ---
 
@@ -113,7 +113,7 @@ Hell no!
 
 ---
 
-Your site data; the simplest example
+The simplest example is your site data; 
 ```
 gatsby-config.js
 
@@ -194,7 +194,7 @@ export default () => (
 ```
 ---
 
-# The Plugins
+# Plugins for everything!
 ---
 
 ## Source Plugins
@@ -218,15 +218,17 @@ into new nodes or node fields
 
 - Markdown to HTML for example
 
-- Images
+- Images with ```gatsby-transformer-sharp```
 
 - Any mods you need to make to incoming data
 
 ---
 
-## 3rd party plugins
+## Anything else you want!
 
-Anything else you want!
+### 3rd party plugins
+
+
 
 ```
 gatsby-plugin-styled-components
@@ -248,7 +250,17 @@ gatsby-plugin-manifest
 
 # Demo time!
 
-(ask about the Node API if there's still time)
+---
+
+# Check out the starters page
+
+---
+
+# https://store.gatsbyjs.org/
+
+
+# Promo Code: 
+# REACTOTTOWA
 
 ---
 
@@ -257,5 +269,7 @@ gatsby-plugin-manifest
 ## @matldupont
 
 ## https://github.com/matldupont/
+
+
 
 ---
