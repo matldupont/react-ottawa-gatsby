@@ -105,7 +105,7 @@ Your data is all pulled when you deploy
 
 - Pages are just components in ```src/pages``` 
 
-- React Router behind the scenes
+- Reach Router behind the scenes
 
 ---
 
