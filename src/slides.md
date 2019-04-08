@@ -3,17 +3,13 @@
 
 ## Mat Dupont
 
-    Can I really get through this in 20 min?!
-
 ---
 
 # What is Gastby anyway?
 
 ---
 
-# A static site generator!
-
-(Based in React, or I wouldn't be talking about it)
+# A React-based static site generator!
 
 ---
 
@@ -27,24 +23,33 @@ CSS
 
 ---
 
-So ... a JAMStack app.
+Not *just* a JAMStack app
 
 ---
 
-> "This is a React meetup.  
-
-> All our apps are static files using JAMStack. 
-
-> What else you got?!"
-<cite>All of you, right now</cite>
+Server Side Rendered React application
 
 ---
 
-# It's crazy fast!
+## But why bother?
 
 ---
 
-# What else?
+- Real content on First Paint
+ 
+- SEO
+
+- Edge of the cloud
+
+- Scalable
+
+- Serverless
+
+---
+
+# Performance
+
+---
 
 - Code and data splitting out of the box.
 
@@ -89,14 +94,6 @@ Your data is all pulled when you deploy
 
 ---
 
-## The most relevant example
-
----
-
-# reactjs.org
-
----
-
 # The Basics
 
 ---
@@ -119,8 +116,8 @@ gatsby-config.js
 
 module.exports = {
   siteMetadata: {
-    title: `ReactOttawa`,
-    description: `The coolest meetup in town`,
+    title: `Rebel.com`,
+    description: `The coolest registrar in town`,
   },
 }
 ```
@@ -172,7 +169,7 @@ export default MainPage
 ```
 ---
 
-## Static Queries
+## Static Queries*
 
 ```
 import { StaticQuery, graphql } from 'gatsby'
@@ -194,7 +191,7 @@ export default () => (
 ```
 ---
 
-# Plugins for everything!
+# A plugin for everything!
 ---
 
 ## Source Plugins
@@ -226,8 +223,6 @@ into new nodes or node fields
 
 ## Anything else you want!
 
-### 3rd party plugins
-
 
 
 ```
@@ -252,24 +247,10 @@ gatsby-plugin-manifest
 
 ---
 
-# Check out the starters page
-
----
-
-# https://store.gatsbyjs.org/
-
-
-# Promo Code: 
-# REACTOTTOWA
-
----
-
 # Thank you all for your time
 
 ## @matldupont
 
 ## https://github.com/matldupont/
-
-
 
 ---
