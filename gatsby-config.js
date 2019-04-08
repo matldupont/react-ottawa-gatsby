@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     name: `Mat Dupont`,
-    title: `@ReactOttawa - Getting Started with Gatsby`,
+    title: `ForwardJS - Getting Started with Gatsby`,
     date: `@matldupont`,
   },
   plugins: [
@@ -14,6 +14,6 @@ module.exports = {
         name: `slides`,
         path: `${__dirname}/src`,
       },
-    }
+    },
   ],
 };

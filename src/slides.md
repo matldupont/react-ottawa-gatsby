@@ -87,10 +87,12 @@ Pages, not just files.
 
 ---
 
+## Not On-Demand, Pre-Built
+
 No more calling your api or database  
 to dynamically fetch entire pages
 
-Your data is all pulled when you deploy
+
 
 ---
 
@@ -189,6 +191,30 @@ export default () => (
     />
 )
 ```
+---
+```
+import React from "react"
+import { useStaticQuery, graphql } from "gatsby"
+
+export default () => {
+  const data = useStaticQuery(graphql`
+    query HeaderQuery {
+      site {
+        siteMetadata {
+          title
+        }
+      }
+    }
+  `)
+
+  return (
+    <header>
+      <h1>{data.site.siteMetadata.title}</h1>
+    </header>
+  )
+}
+```
+
 ---
 
 # A plugin for everything!
