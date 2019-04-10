@@ -5,11 +5,25 @@
 
 ---
 
+# ! Disclaimer !
+
+---
+
 # What is Gastby anyway?
 
 ---
 
-# A React-based static site generator!
+## The perfect marriage between React, GraphQL and a crazy fast website
+
+(all things I like)
+
+---
+
+# ... what is it really?
+
+---
+
+# A React-based static site generator
 
 ---
 
@@ -21,17 +35,25 @@ JavaScript
 
 CSS
 
----
-
-Not *just* a JAMStack app
+#### ... a JAMstack application?
 
 ---
 
-Server Side Rendered React application
+- Code splitting out of the box 
+ 
+- Abstraction layer above Webpack and Babel
+
+- Hot reloading
+
+- React is fun
 
 ---
 
-## But why bother?
+## But, ```create-react-app```?
+
+---
+
+# Server Side Rendered React
 
 ---
 
@@ -43,7 +65,9 @@ Server Side Rendered React application
 
 - Scalable
 
-- Serverless
+- SSR, but Serverless!
+
+- Hydrates to a full featured React app
 
 ---
 
@@ -51,23 +75,19 @@ Server Side Rendered React application
 
 ---
 
-- Code and data splitting out of the box.
-
-- A layer above Webpack and Babel
-
-- Generates a PWA
-
 - Loads only what it needs to get started
-
+ 
 - Prefetches from other pages to speed up navigation
+ 
+- Default starter generates a Progressive Web App
 
 ---
 
-## Here's where shit gets crazy... 
+## Here's where shit gets really crazy... 
 
 ---
 
-## You pull your data from anywhere using GraphQL!
+## You pull your site data from anywhere using GraphQL!
 
 ---
 
@@ -78,6 +98,8 @@ Server Side Rendered React application
 - API
 - Database
 - The file system itself
+
+## Dumps it all into a GraphQL schema
 
 ---
 
@@ -91,8 +113,6 @@ Pages, not just files.
 
 No more calling your api or database  
 to dynamically fetch entire pages
-
-
 
 ---
 
@@ -217,7 +237,9 @@ export default () => {
 
 ---
 
-# A plugin for everything!
+## But, how does it "dump" it in there?!
+
+# Plugins!
 ---
 
 ## Source Plugins
@@ -239,17 +261,15 @@ Pull data from various locations into "nodes"
 Transform data from the source plugins  
 into new nodes or node fields
 
-- Markdown to HTML for example
+- Markdown to HTML
 
-- Images with ```gatsby-transformer-sharp```
+- Scaled down images
 
 - Any mods you need to make to incoming data
 
 ---
 
 ## Anything else you want!
-
-
 
 ```
 gatsby-plugin-styled-components
@@ -261,15 +281,13 @@ gatsby-plugin-manifest
 ```
 ---
 
-## The best part...
+## Something missing?  
+
+# Make your own!
 
 ---
 
-# You can make your own!
-
----
-
-# Demo time!
+# More fun!?
 
 ---
 
