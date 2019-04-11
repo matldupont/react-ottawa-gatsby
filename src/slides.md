@@ -299,7 +299,15 @@ gatsby-plugin-manifest
 
 ---
 
-# Thank you all for your time
+## I don't know all the ins and outs of Gatsby
+
+# YET
+
+---
+
+# Thank you all for letting me show you
+
+## I understand it better now
 
 ## @matldupont
 
