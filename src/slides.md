@@ -6,6 +6,14 @@
 
 ---
 
+[www.gatsbyjs.org](https://www.gatsbyjs.org/)
+
+---
+
+# THANK YOU!
+
+---
+
 # ! Disclaimer !
 
 ---
@@ -285,7 +293,9 @@ gatsby-plugin-manifest
 
 ---
 
-# More fun!?
+## Config or more fun!?
+
+# FUN!
 
 ---
 
