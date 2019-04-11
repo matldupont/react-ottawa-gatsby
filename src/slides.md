@@ -1,7 +1,8 @@
 
 # Getting Started with Gatsby
 
-## Mat Dupont
+## Mat Dupont - Rebel.com
+@matldupont
 
 ---
 
@@ -35,14 +36,14 @@ JavaScript
 
 CSS
 
-#### ... a JAMstack application?
+#### ... a JAMstack application
 
 ---
 
-- Code splitting out of the box 
- 
 - Abstraction layer above Webpack and Babel
 
+- Code splitting out of the box 
+ 
 - Hot reloading
 
 - React is fun
@@ -56,18 +57,19 @@ CSS
 # Server Side Rendered React
 
 ---
+- Static HTML and CSS that hydrates to a full featured React app
 
 - Real content on First Paint
  
-- SEO
+- SEO (Googlebot is busy, throw it a bone here)
+
+- Open Graph Protocol
 
 - Edge of the cloud
 
 - Scalable
 
 - SSR, but Serverless!
-
-- Hydrates to a full featured React app
 
 ---
 
@@ -78,6 +80,8 @@ CSS
 - Loads only what it needs to get started
  
 - Prefetches from other pages to speed up navigation
+
+- Route-based code splitting!
  
 - Default starter generates a Progressive Web App
 
@@ -103,13 +107,7 @@ CSS
 
 ---
 
-## What I really meant by "static"...
-
-Pages, not just files.
-
----
-
-## Not On-Demand, Pre-Built
+## Not On-Demand, Pre-Built on Deploy
 
 No more calling your api or database  
 to dynamically fetch entire pages
@@ -237,7 +235,7 @@ export default () => {
 
 ---
 
-## But, how does it "dump" it in there?!
+## But, how does it "dump" my data into the schema?!
 
 # Plugins!
 ---
@@ -263,7 +261,7 @@ into new nodes or node fields
 
 - Markdown to HTML
 
-- Scaled down images
+- Image urls into a collection scaled image or SVGs
 
 - Any mods you need to make to incoming data
 
